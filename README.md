@@ -56,14 +56,7 @@ Some of the work included (or coming soon):
 ---
 
 ## 🖼️ MWR Image
-
-<p align="center">
-  <img src="MWR/image.png" width="400"/>
-</p>
-<p align="center">
-  <img src="assets/MWR.png" width="350"/>
-</p>
----
+![MWR Image](MWR.png)
 
 ## 📂 Repository Structure
 
