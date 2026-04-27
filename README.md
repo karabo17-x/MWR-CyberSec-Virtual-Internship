@@ -20,12 +20,12 @@ This repository exists to:
 
 Here are some of the key areas I’ve covered so far:
 
-- 🔹 Networking fundamentals (TCP/IP, DNS, HTTP/S)
-- 🔹 Linux systems (Kali Linux, command-line usage)
-- 🔹 Basic penetration testing concepts
-- 🔹 Web vulnerabilities (XSS, misconfigurations, exposed endpoints)
-- 🔹 Security tools and reconnaissance techniques
-- 🔹 Programming for security (Java, scripting basics)
+-  Networking fundamentals (TCP/IP, DNS, HTTP/S)
+-  Linux systems (Kali Linux, command-line usage)
+-  Basic penetration testing concepts
+-  Web vulnerabilities (XSS, misconfigurations, exposed endpoints)
+-  Security tools and reconnaissance techniques
+-  Programming for security (Java, scripting basics)
 
 ---
 
@@ -61,7 +61,7 @@ Some of the work included (or coming soon):
 ## 📂 Repository Structure
 
 ```
-MWRCyberSec/
+MWRCyberSec_Internship-modules/
 │
 ├── notes/              # Learning notes & summaries
 ├── tools/              # Custom-built tools
