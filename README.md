@@ -57,8 +57,10 @@ Some of the work included (or coming soon):
 
 ## 🖼️ MWR Image
 
+<p align="center">
+  <img src="MWR/image.png" width="400"/>
+</p>
 
-![MWR Image](MWR.png)
 
 
 ---
@@ -91,4 +93,3 @@ MWRCyberSec/
 This is primarily a personal learning repository and special thanks to **MWR CyberSec**.
 
 
--
