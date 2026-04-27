@@ -58,7 +58,7 @@ Some of the work included (or coming soon):
 ## 🖼️ MWR Image
 
 
-![MWR Image](path/to/your/image.png)
+![MWR Image](MWR.png)
 
 
 ---
