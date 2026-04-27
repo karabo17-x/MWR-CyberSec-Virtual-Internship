@@ -302,4 +302,5 @@ A weaker fallback — escape special characters (`'`, `"`, `;`, `--`, etc.) if p
 *📁 Part of the MWR CyberSec Internship GitHub resource repository.*  
 *Feel free to fork, contribute, or raise issues if you spot anything that needs updating.*
 ---
+*Never Stop Learning, Those Who Have Stopped Learning Have Stopped LIving*.
 Author: **Karabo Mothapo**
