@@ -1,11 +1,11 @@
-#Completing the Assignments 
+# Completing the Assignments 
 
 
  you will need a virtual machine to complete some of the weekly assignments. While the TryHackMe AttackBox is usable, it is limited to 1 hour per day for a free user.
  If your device cannot handle a Virtual machine, you will need to use that 1 hour per day and complete the assignments over multiple days of the week. I do recommend the use of a VM if you can use one. 
 
 
-#Completing Of Tasks and Assigments.
+## Completing Of Tasks and Assigments.
 
 TryHackMe has a VPN that allows unlimited connectivity to it which removes that time limit. You should connect to that VPN from a Kali Linux (https://www.kali.org/get-kali/#kali-platforms) Virtual Machine. 
 
