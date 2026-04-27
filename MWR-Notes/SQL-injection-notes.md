@@ -27,7 +27,7 @@
 
 The root cause is almost always the same: **user-supplied input is incorporated into a SQL query without proper validation or sanitisation**. The database cannot distinguish between the legitimate query structure and the attacker's injected code — it executes both.
 
-> 💡 SQL Injection has consistently appeared on the **OWASP Top 10** list of critical web application security risks for over a decade.
+>  SQL Injection has consistently appeared on the **OWASP Top 10** list of critical web application security risks for over a decade.
 
 ---
 
@@ -94,7 +94,7 @@ Uses **different channels** (DNS, HTTP requests) to exfiltrate data. Relies on d
 
 ## 4. Common Payloads & Examples
 
-> ⚠️ **These are provided for educational purposes only.** Only test against systems you have explicit permission to test.
+> **These are provided for educational purposes only.** Only test against systems you have explicit permission to test.
 
 ### Authentication Bypass
 ```sql
@@ -193,7 +193,7 @@ Microsoft OLE DB Provider for ODBC Drivers error
 
 ## 7. Prevention & Mitigation
 
-### ✅ Primary Defence: Prepared Statements (Parameterised Queries)
+### Primary Defence: Prepared Statements (Parameterised Queries)
 
 The single most effective defence. The SQL structure is defined first; user input is **never concatenated** into the query.
 
@@ -220,31 +220,31 @@ $stmt = $pdo->prepare("SELECT * FROM users WHERE username = ?");
 $stmt->execute([$username]);
 ```
 
-### ✅ Secondary Defence: Stored Procedures
+### Secondary Defence: Stored Procedures
 Use stored procedures that are themselves parameterised. Avoid dynamic SQL inside stored procedures.
 
-### ✅ Input Validation & Allowlisting
+### Input Validation & Allowlisting
 - Validate input **type**, **length**, **format**, and **range**
 - For fields expecting specific formats (e.g., integers, dates), reject anything that doesn't match
 - Never rely on input validation alone as the primary defence
 
-### ✅ Escaping User-Supplied Input
+###  Escaping User-Supplied Input
 A weaker fallback — escape special characters (`'`, `"`, `;`, `--`, etc.) if parameterised queries cannot be used. Use database-specific escaping functions.
 
-### ✅ Least Privilege Principle
+### Least Privilege Principle
 - The database account used by the application should have **minimum required permissions**
 - A web app account should not have `DROP`, `ALTER`, or `CREATE` privileges
 - Separate read and write accounts where possible
 
-### ✅ Web Application Firewall (WAF)
+###  Web Application Firewall (WAF)
 - A WAF can detect and block common SQLi patterns
 - **Not a substitute** for secure coding — only a supplementary layer
 
-### ✅ Error Handling
+### Error Handling
 - Never expose raw SQL errors to end users
 - Log errors server-side; return generic error messages to the client
 
-### ✅ Regular Security Testing
+###  Regular Security Testing
 - Include SQLi testing in your SDLC (Static Analysis, DAST scans, penetration testing)
 - Use tools like SQLMap, Burp Suite, OWASP ZAP during testing phases
 
@@ -279,13 +279,13 @@ A weaker fallback — escape special characters (`'`, `"`, `;`, `--`, etc.) if p
 
 ## 10. Key Takeaways
 
-- 🔑 **SQL Injection is a trust problem** — applications must never trust user input.
-- 🔑 **Parameterised queries / prepared statements** are the gold-standard defence.
-- 🔑 There are multiple SQLi types — **in-band, blind, and out-of-band** — each requiring different detection and exploitation techniques.
-- 🔑 Even a **single vulnerable input field** can lead to full database compromise.
-- 🔑 **Least privilege** limits the blast radius of a successful attack.
-- 🔑 Always test for SQLi in **every user-supplied input**: URL parameters, form fields, HTTP headers, cookies, and JSON/XML body parameters.
-- 🔑 A WAF helps but is **not a replacement** for writing secure code.
+-  **SQL Injection is a trust problem** — applications must never trust user input.
+-  **Parameterised queries / prepared statements** are the gold-standard defence.
+-  There are multiple SQLi types — **in-band, blind, and out-of-band** — each requiring different detection and exploitation techniques.
+-  Even a **single vulnerable input field** can lead to full database compromise.
+-  **Least privilege** limits the blast radius of a successful attack.
+-  Always test for SQLi in **every user-supplied input**: URL parameters, form fields, HTTP headers, cookies, and JSON/XML body parameters.
+-  A WAF helps but is **not a replacement** for writing secure code.
 
 ---
 
