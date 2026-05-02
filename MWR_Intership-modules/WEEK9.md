@@ -144,9 +144,8 @@ Attackers may overwrite existing files on a server to:
 ### ❓ Questions
 
 1. What is the name of the image file which can be overwritten?  
-✍️ Answer:  
+✍️ Answer:  mountains.jpg
 
-📸 Add screenshot showing how the file was identified
 
 ---
 
