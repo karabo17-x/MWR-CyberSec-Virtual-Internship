@@ -21,7 +21,7 @@ This section covers foundational knowledge required before diving into exploitat
 
 - Link 1: https://cheatsheetseries.owasp.org/cheatsheets/File_Upload_Cheat_Sheet.html
 - Link 2: https://owasp.org/www-community/vulnerabilities/Unrestricted_File_Upload
-- Link 3:
+- Link 3: https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/10-Business_Logic_Testing/09-Test_Upload_of_Malicious_Files
 - Link 4:
 - Link 5:
 - Link 6:
