@@ -20,7 +20,7 @@ This section covers foundational knowledge required before diving into exploitat
 
 
 - Link 1: https://cheatsheetseries.owasp.org/cheatsheets/File_Upload_Cheat_Sheet.html
-- Link 2:
+- Link 2: https://owasp.org/www-community/vulnerabilities/Unrestricted_File_Upload
 - Link 3:
 - Link 4:
 - Link 5:
