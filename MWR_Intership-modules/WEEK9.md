@@ -151,9 +151,9 @@ Attackers may overwrite existing files on a server to:
 ---
 
 2. Overwrite the image. What is the flag you receive?  
-✍️ Answer:  
+✍️ Answer:  **THM{OTBiODQ3YmNjYWZhM2UyMmYzZDNiZjI5}**
 
-📸 Add screenshot showing successful overwrite and flag
+<img width="1068" height="881" alt="image" src="https://github.com/user-attachments/assets/234865a3-99b6-4136-8664-ed76349b5b52" />
 
 ---
 
